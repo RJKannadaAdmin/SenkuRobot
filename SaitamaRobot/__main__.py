@@ -52,8 +52,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
+
 I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups. Join @levi_support_group.
+
 You can find my list of available commands with /help.
 """
 
@@ -208,7 +209,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                             text=" ✨ My Creator ",
-                            url="https://t.me/KannadaAdmin"),
+                            url="https://t.me/RJ_KannadaAdmin"),
                          InlineKeyboardButton(
                             text=" ⚡️ Support group",
                              url="https://t.me/Kannada_Request_Group")        
