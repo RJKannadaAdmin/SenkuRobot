@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/0db70e783a2fd5f46db48.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/40f9505bb372b97bbb3c3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 No need to donate. Just share this bot with your friends that would mean alot to me"""
@@ -198,26 +198,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text=" 👑 Add Me ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/levibot_official")
+                             text=" 🔔 My Channel ",
+                             url="https://t.me/joinchat/UXLH47j-ZtwOkpoP")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ My Master ",
-                            url="https://t.me/no_friends_needed"),
+                            text=" ✨ My Creator ",
+                            url="https://t.me/KannadaAdmin"),
                          InlineKeyboardButton(
                             text=" ⚡️ Support group",
-                             url="https://t.me/joinchat/QIBCivQvB7FkNDZh")        
+                             url="https://t.me/Kannada_Request_Group")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/killerkr/SenkuRobot")
+                             text=" My Owner ",
+                             url="https://t.me/Kichcha_Fan")
                     
                     ]]))
     else:
